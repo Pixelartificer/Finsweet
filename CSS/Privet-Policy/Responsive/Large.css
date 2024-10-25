@@ -1,0 +1,115 @@
+@media (max-width: 1199.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .customNavItem {
+    padding-right: 24px;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+  }
+
+  .customNavButton__title {
+    font-size: 14px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Privet Policy =============== */
+
+
+
+  /* =============== Privet Policy =============== */
+
+  #policyPart {
+  padding: 96px 0;
+}
+
+.policyPart__summery {
+
+  padding-bottom: 32px;
+}
+
+.policyPart__title02{
+
+  padding-bottom: 24px;
+
+}
+
+.policyPart__title02{
+
+  padding-bottom: 24px;
+
+}
+
+.policyPart__summery01 {
+
+  padding-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+  /* =============== Footer Part =============== */
+
+  #footerPart {
+    padding: 96px 0px 0px;
+  }
+
+  .customerfootercontact__summery {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 0px 40px 0;
+  }
+
+  .customfooterleftContact {
+    padding: 12px 28px;
+    background-color: var(--Yellow_Color);
+  }
+
+  .customfooterleftContact__title {
+    font-size: 14px;
+    margin-bottom: 4x;
+  }
+
+  .customfooterleftContact__address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customfooterright__title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .customfooterright__summery {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  
+  }
+
+  /* =============== Footer Part =============== */
+}

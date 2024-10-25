@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) { 
+     /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== Contact =============== */
+
+  #contactPart {
+    padding: 56px 0;
+
+  }
+
+  .contactPart__title {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+
+  .contactpartBottom{
+    padding: 40px 56px;
+    background-color: var(--secoundary_background_color);
+  }
+  
+  /* =============== Contact =============== */
+
+ 
+ }

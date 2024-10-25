@@ -1,0 +1,109 @@
+@media (max-width: 1199.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .customNavItem {
+    padding-right: 24px;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+  }
+
+  .customNavButton__title {
+    font-size: 14px;
+  }
+
+  /* =============== NavBar =============== */
+
+
+  /* =============== Read Case Study =============== */
+
+  #casePart {
+    padding: 88px 0 0 0;
+  }
+
+  .casepartSocial {
+    padding: 36px 0 24px 0;
+  }
+
+  .casepartSocial__title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Primery_Font_Color);
+    padding-top: 4px;
+  }
+
+  .casecustomNavbae{
+    padding: 40px 0 60px;
+  }
+
+  #aboutprojectPart {
+    padding: 60px 0;
+    background-color: var(--white);
+  }
+
+  .templatebuttom{
+    padding: 0px 0;
+  }
+
+  
+
+  /* =============== Read Case Study =============== */
+
+ 
+  /* =============== Footer Part =============== */
+
+ 
+
+  .customerfootercontact__summery {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 0px 40px 0;
+  }
+
+  .customfooterleftContact {
+    padding: 12px 28px;
+    background-color: var(--Yellow_Color);
+  }
+
+  .customfooterleftContact__title {
+    font-size: 14px;
+    margin-bottom: 4x;
+  }
+
+  .customfooterleftContact__address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customfooterright__title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .customfooterright__summery {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  
+  }
+
+  /* =============== Footer Part =============== */
+}

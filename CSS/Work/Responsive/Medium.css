@@ -1,0 +1,166 @@
+@media (max-width: 991.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+    font-family: 400;
+  }
+
+  .customNavButton__title {
+    padding: 12px 32px;
+    border: 1px solid #474975;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Hero Part =============== */
+
+  #heroPart {
+    padding: 80px 0;
+  }
+
+  .customHero__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+
+  .customHero__summery {
+    padding: 16px 0 24px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customHero__button {
+    padding: 14px 36px;
+    border: 1px solid #474975;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* =============== Hero Part =============== */
+
+  /* =============== Work Part =============== */
+
+  #workPart {
+    padding: 80px 0;
+  }
+
+  .workPart__title {
+    font-size: 40px;
+  }
+
+  .workPart__summery {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  .customWork__touch {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 16px;
+  }
+
+  /* =============== Work Part =============== */
+
+  /* =============== Project Part =============== */
+
+  #projectPart {
+    padding: 80px 0;
+  }
+
+  .overlay02 {
+    padding: 150px 120px 0 40px;
+  }
+
+  /* =============== Project Part =============== */
+
+  /* =============== Features Part =============== */
+
+  #designPartg {
+    padding: 80px 0;
+  }
+
+  .designTop__title {
+    padding: 16px 0 32px 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  /* =============== Features Part =============== */
+
+  /* =============== Client Part =============== */
+
+  #clientsPart {
+    padding: 80px 0;
+  }
+
+  .clientLeft__title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+
+  .clientLeft__summery {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .clientsRight__title {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 40px;
+  }
+
+  /* =============== Client Part =============== */
+
+  /* =============== FAQ Part =============== */
+
+  #faqpart {
+    padding: 80px 0;
+  }
+
+  .faqLeft__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+
+  /* =============== FAQ Part =============== */
+
+  /* =============== Blog Part =============== */
+
+  #blogPart {
+    padding: 80px 0px;
+  }
+
+  .blogPart__header {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  /* =============== Blog Part =============== */
+}

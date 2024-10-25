@@ -1,0 +1,106 @@
+@media (max-width: 1399.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+  .customNavButton__title {
+    padding: 12px 32px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== About Us =============== */
+
+  #aboutusPart {
+    padding: 96px 0px;
+    background-color: var(--white);
+  }
+
+  .customAboutusLeft__title {
+    font-size: 48px;
+      line-height: 56px;
+    padding: 8px 0 24px 0;
+  }
+
+  /* =============== About Us =============== */
+
+
+  /* =============== The process we follow =============== */
+
+  #pricessPart {
+    padding: 96px 0;
+     }
+
+  /* =============== The process we follow =============== */
+
+  /* =============== Our Mission=============== */
+
+  #missionPart {
+    padding: 96px 0;
+  }
+
+  .benefitsPartTop {
+    font-size: 40px;
+
+  }
+
+  .missionPart__title {
+    padding: 12px 0;
+  }
+
+  /* =============== Our Mission=============== */
+
+  /* =============== The Benefits =============== */
+
+  #benefitsPart {
+    padding: 96px 0;
+  
+  }
+  /* =============== The Benefits =============== */
+
+  /* ===============  Meet our team =============== */
+
+  #ourteamPart {
+    padding: 96px 0;
+   
+  }
+
+  .customClient__icon {
+    padding-top: 90px;
+  }
+
+  .customClient__name{
+    font-size: 16px;
+   
+    }
+
+    .customClient__posiction{
+      font-size: 14px;
+   
+    }
+  
+  /* ===============  Meet our team =============== */
+  /* ===============  Footer team =============== */
+
+  .customfooterright__title {
+    font-size: 40px;
+  
+  }
+  /* ===============  Footer team =============== */
+
+ 
+}

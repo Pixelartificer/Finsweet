@@ -1,0 +1,131 @@
+@media (max-width: 1199.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .customNavItem {
+    padding-right: 24px;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+  }
+
+  .customNavButton__title {
+    font-size: 14px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Read Blog =============== */
+
+  #blogPart {
+    padding: 80px 0;
+  
+  }
+
+  .customBlog__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+   
+   
+  }
+
+  .customBlog__name {
+    font-size: 14px;
+    font-weight: 500;
+  
+  }
+
+  .customBlog__date {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .blogPart__subtitle{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 36px 0 24px 0;
+  }
+
+  .blogPart__summery{
+    font-size: 14px;
+    line-height: 20px;
+  
+  }
+
+  .aboutProject__note {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 6px;
+  }
+  
+  /* =============== Read Blog =============== */
+
+  
+
+
+
+
+
+
+  
+
+  /* =============== Footer Part =============== */
+
+  #footerPart {
+    padding: 88px 0px 0px;
+  }
+
+  .customerfootercontact__summery {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 0px 40px 0;
+  }
+
+  .customfooterleftContact {
+    padding: 12px 28px;
+    background-color: var(--Yellow_Color);
+  }
+
+  .customfooterleftContact__title {
+    font-size: 14px;
+    margin-bottom: 4x;
+  }
+
+  .customfooterleftContact__address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customfooterright__title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .customfooterright__summery {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  
+  }
+
+  /* =============== Footer Part =============== */
+}

@@ -1,0 +1,147 @@
+@media (max-width: 1199.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .customNavItem {
+    padding-right: 24px;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+  }
+
+  .customNavButton__title {
+    font-size: 14px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Who We Are Part =============== */
+
+  .weAre__title {
+    font-size: 32px;
+  }
+
+  /* =============== Who We Are Part =============== */
+
+  /* =============== The process we follow Part =============== */
+
+  #pricessPart {
+    padding: 96px 0;
+  }
+
+  /* =============== The process we follow Part =============== */
+
+  /* =============== Our Mission Part =============== */
+
+  #missionPart {
+    padding: 96px 0;
+  }
+
+  /* =============== Our Mission Part =============== */
+
+  /* =============== The benefits of working with us Part =============== */
+
+  #benefitsPart {
+    padding: 96px 0;
+  }
+
+  .benefitsPart__card {
+    padding: 40px 28px ;
+  
+  }
+
+  .benefitsPart__title {
+    font-size: 24px;
+       padding: 20px 0 8px 0;
+  }
+
+  .benefitsPart__client {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 4px;
+  }
+
+  /* =============== The benefits of working with us Part =============== */
+
+  /* =============== Meet Our Team =============== */
+
+  #ourteamPart {
+    padding: 96px 0;
+  }
+
+  .customClient {
+    padding: 40px 40px;
+    background-color: var(--white);
+  }
+
+  .customClient__icon {
+    padding-top: 90px;
+  }
+
+  .customClient__name {
+    font-size: 18px;
+  }
+
+  .customClient__posiction {
+    font-size: 14px;
+  }
+
+  /* =============== Meet Our Team =============== */
+
+  /* =============== Footer Part =============== */
+
+  #footerPart {
+    padding: 96px 0px 0px;
+  }
+
+  .customerfootercontact__summery {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 0px 40px 0;
+  }
+
+  .customfooterleftContact {
+    padding: 12px 28px;
+    background-color: var(--Yellow_Color);
+  }
+
+  .customfooterleftContact__title {
+    font-size: 14px;
+    margin-bottom: 4x;
+  }
+
+  .customfooterleftContact__address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customfooterright__title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .customfooterright__summery {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  /* =============== Footer Part =============== */
+}

@@ -1,0 +1,108 @@
+@media (max-width: 1399.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+  .customNavButton__title {
+    padding: 12px 32px;
+  }
+
+  /* =============== NavBar =============== */
+
+
+  /* =============== Hero =============== */
+
+  #heroPart {
+    padding: 96px 0px;
+
+  }
+
+  .customhero__title {
+    font-size: 48px;
+    line-height: 56px;
+    
+  }
+
+  /* =============== Hero =============== */
+
+  /* =============== benefits =============== */
+
+  
+.benefitsPartTop {
+  font-size: 40px;
+
+  padding-bottom: 40px;
+}
+
+  /* =============== benefits =============== */
+
+  /* =============== Client =============== */
+
+  .detailspartLeft{
+    padding: 96px 0 0px 0;
+  }
+
+  .detailsPart__title{
+    font-size: 32px;
+    font-weight: 500;
+
+    line-height: 40px;
+
+    
+  }
+
+
+
+  /* =============== Client =============== */
+
+
+  /* =============== FAQ =============== */
+
+  #faqpart {
+    padding: 96px 0;
+   
+  }
+
+  .faqLeft__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+   
+  }
+
+  .customFaq__number {
+    font-size: 20px;
+  
+  }
+
+  .customFaq__question {
+    font-size: 20px;
+  
+  }
+
+  .customFaq__answer {
+    font-size: 14px;
+    font-weight: 400;
+  
+    padding-left: 56px;
+  }
+  
+
+  /* =============== FAQ =============== */
+
+  
+}

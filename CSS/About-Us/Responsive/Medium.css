@@ -1,0 +1,105 @@
+@media (max-width: 991.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+    font-family: 400;
+  }
+
+  .customNavButton__title {
+    padding: 12px 32px;
+    border: 1px solid #474975;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== About Us Part =============== */
+
+  #aboutusPart {
+    padding: 80px 0px;
+  }
+
+  /* =============== About Us Part =============== */
+
+  /* =============== Who We are Part =============== */
+  #wearePart {
+    padding: 60px 0px 0 0;
+  }
+
+  /* =============== Who We are Part =============== */
+
+  /* =============== Process we follow Part =============== */
+
+  #pricessPart {
+    padding: 80px 0;
+  }
+
+  .customprocessHead {
+    font-size: 36px;
+    font-weight: 500;
+
+    padding-bottom: 40px;
+  }
+
+  /* =============== Process we follow Part =============== */
+
+  /* =============== Our Mission Part =============== */
+
+  #missionPart {
+    padding: 80px 0;
+  }
+
+  .missionPart__title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  /* =============== Our Mission Part =============== */
+
+  /* =============== Benefits of work Part =============== */
+
+  #benefitsPart {
+    padding: 80px 0;
+  }
+
+  .benefitsPartTop {
+    font-size: 40px;
+  }
+
+  /* =============== Benefits of work Part =============== */
+
+  /* =============== Meet Our Team Part =============== */
+
+  #ourteamPart {
+    padding: 80px 0;
+  }
+
+  .customClient__icon {
+    padding-top: 170px;
+  }
+
+  /* =============== Meet Our Team Part =============== */
+}

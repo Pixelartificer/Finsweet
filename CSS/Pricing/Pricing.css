@@ -1,0 +1,442 @@
+/* =============== Google Font Refarence =============== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* =============== Google Font Refarence =============== */
+
+/* =============== Common CSS =============== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+p,
+img,
+br,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --secoundary_background_color: #f4f6fc;
+  --white: #ffffff;
+  --Primery_Font_Color: #282938;
+  --Yellow_Color: #fcd980;
+  --Poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--Poppins);
+}
+
+/* =============== Common CSS =============== */
+
+/* =============== Navbar CSS =============== */
+
+.customNavBar {
+  padding: 16px 0;
+  background-color: var(--primary_background_color);
+}
+
+.navToggler {
+  color: var(--white);
+}
+
+.customNavItem {
+  padding-right: 32px;
+}
+
+.customNavItem__title {
+  font-size: 16px;
+  font-family: 500;
+  color: var(--white);
+}
+
+.customNavItem__title:hover {
+  color: var(--Yellow_Color);
+}
+
+.customNavButton {
+  padding-left: 16px;
+}
+
+.customNavButton__title {
+  padding: 16px 48px;
+  border: 1px solid #474975;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  background-color: transparent;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.customNavButton__title:hover {
+  background-color: var(--Yellow_Color);
+  color: var(--Primery_Font_Color);
+}
+
+/* =============== Navbar CSS =============== */
+
+/* =============== Pricing Part CSS  =============== */
+
+#PricingPart {
+  padding: 128px 0 0 0;
+  background-color: var(--white);
+}
+
+.customPricing__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+}
+
+.customPricing__summery {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+  opacity: 0.7;
+  padding: 16px 0 64px 0;
+}
+
+.custompricingCard {
+  padding: 64px 48px;
+  background-color: var(--secoundary_background_color);
+  transition: all ease-in-out 0.5s;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+
+.custompricingCard:hover {
+  background-color: var(--primary_background_color);
+  filter: drop-shadow(0px 0px 17px #88eefb);
+}
+
+.custompricingCard:hover .custompricingCard__price {
+  color: var(--white);
+}
+
+.custompricingCard:hover .custompricingCard__time {
+  color: var(--Yellow_Color);
+}
+
+.custompricingCard:hover .custompricingCard__title {
+  color: var(--white);
+}
+
+.custompricingCard:hover .custompricingCard__summery {
+  color: var(--white);
+}
+
+.custompricingCard:hover .custompricingCard__offer {
+  color: var(--white);
+}
+
+.custompricingCard:hover .custompricingCard__button {
+  color: var(--Primery_Font_Color);
+  background-color: var(--Yellow_Color);
+}
+
+.custompricingCard__head {
+  align-items: center;
+}
+
+.custompricingCard__price {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+}
+
+.custompricingCard__time {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2405f2;
+  padding-left: 8px;
+}
+
+.custompricingCard__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+  padding: 20px 0 8px 0;
+}
+
+.custompricingCard__summery {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.7;
+  padding-bottom: 78px;
+}
+
+.custompricingCard__offer {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  padding-bottom: 20px;
+  padding-left: 8px;
+}
+
+.custompricingCard__button {
+  margin-top: 60px;
+  padding: 16px 76px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
+  background-color: var(--primary_background_color);
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.--custompricingCard02 {
+  padding-bottom: 50px;
+}
+
+.--custompricingCard__button02 {
+  margin-top: 39px;
+}
+
+/* =============== Pricing Part CSS  =============== */
+
+/* =============== FAQ Part CSS  =============== */
+
+#faqpart {
+  padding: 128px 0px;
+}
+
+.faqLeft__title {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+  line-height: 56px;
+  padding-bottom: 16px;
+}
+
+.customFaq__number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2405f2;
+  padding-right: 30px;
+}
+
+.customFaq__question {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+}
+
+.customFaq__answer {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.87;
+  padding-left: 68px;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("https://cdn1.iconfinder.com/data/icons/basic-ui-elements-28/512/1034_Add_new_plus_sign-512.png");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/23/02/48/cross-7086307_1280.png");
+  transform: rotate(-180deg);
+}
+
+/* =============== FAQ Part CSS  =============== */
+
+/* =============== Footer Part CSS  =============== */
+
+#footerPart {
+  padding: 128px 0px 0px 0px;
+  background-color: var(--primary_background_color);
+}
+
+.customerfootercontact__summery {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+  opacity: 0.8;
+ 
+  line-height: 28px;
+  padding: 24px 0px 60px 0;
+}
+
+.customfooterleftContact {
+  padding: 16px 36px;
+  background-color: var(--Yellow_Color);
+}
+
+.customfooterleftContact__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+  margin-bottom: 6px;
+}
+
+.customfooterleftContact__address {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.8;
+}
+
+.customfooterright__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.customfooterright__summery {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 28px;
+  opacity: 0.8;
+  padding: 14px 0px 28px 0px;
+}
+
+
+
+.customfooterright__fb {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__fb:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__tw {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__tw:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__in {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__in:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__ld {
+  color: var(--white);
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__ld:hover {
+  color: var(--Yellow_Color);
+}
+
+/* =============== Terms & condition Part CSS  =============== */
+
+#termspart {
+  padding: 32px 0px;
+  background-color: var(--white);
+}
+
+.termspart__summery {
+  font-size: var(--Paragraph_font_size);
+  font-weight: var(--Paragraph_font_weight);
+  color: var(--Primery_Font_Color);
+}
+
+.customNav__text {
+  font-size: 16px;
+  font-weight: var(--Paragraph_font_weight);
+  color: var(--Primery_Font_Color);
+  margin-left: 12px;
+}
+
+.customNav__text:hover {
+  color: #2405f2;
+}
+
+/* =============== Terms & condition Part CSS  =============== */

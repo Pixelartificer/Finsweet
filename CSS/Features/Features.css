@@ -1,0 +1,465 @@
+/* =============== Google Font Refarence =============== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* =============== Google Font Refarence =============== */
+
+/* =============== Common CSS =============== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+p,
+img,
+br,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --secoundary_background_color: #f4f6fc;
+  --white: #ffffff;
+  --Primery_Font_Color: #282938;
+  --Yellow_Color: #fcd980;
+  --Poppins: "Poppins", sans-serif;
+
+
+}
+
+body {
+  font-family: var(--Poppins);
+}
+
+/* =============== Common CSS =============== */
+
+/* =============== Navbar CSS =============== */
+
+.customNavBar {
+  padding: 16px 0;
+  background-color: var(--primary_background_color);
+}
+
+.navToggler{
+  color: var(--white);
+}
+
+.customNavItem {
+  padding-right: 32px;
+}
+
+.customNavItem__title {
+  font-size: 16px;
+  font-family: 500;
+  color: var(--white);
+}
+
+.customNavItem__title:hover {
+  color: var(--Yellow_Color);
+}
+
+.customNavButton {
+  padding-left: 16px;
+}
+
+.customNavButton__title {
+  padding: 16px 48px;
+  border: 1px solid #474975;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  background-color: transparent;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.customNavButton__title:hover {
+  background-color: var(--Yellow_Color);
+  color: var(--Primery_Font_Color);
+}
+
+/* =============== Navbar CSS =============== */
+
+/* =============== Hero Part CSS  =============== */
+
+#heroPart {
+  padding: 128px 0px;
+  background-color: var(--primary_background_color);
+}
+
+.customhero__title {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: var(--white);
+}
+
+.customhero__summery {
+  padding: 24px 0 48px 0;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: var(--white);
+  line-height: 28px;
+}
+
+.customheroButtom__button {
+  padding: 16px 56px;
+  background-color: transparent;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+
+.customheroButtom__button:hover {
+  background-color: var(--Yellow_Color);
+  color: var(--Primery_Font_Color);
+}
+
+
+
+/* =============== Hero Part CSS  =============== */
+
+/* =============== client Part CSS  =============== */
+
+
+#clientLogoPart{
+  padding: 96px 0;
+}
+
+.benefitsPart__client {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+  padding-bottom: 6px;
+}
+
+/* =============== Client Part CSS  =============== */
+
+/* =============== The benefits of working Part CSS  =============== */
+
+.benefitsPartTop {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+  padding-bottom: 48px;
+}
+
+.benefitsPart__card {
+  padding: 48px 32px 48px 48px;
+  background-color: var(--secoundary_background_color);
+}
+
+.benefitsPart__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+  padding: 24px 0 12px 0;
+}
+
+.benefitsPart__summery {
+  font-style: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.7;
+}
+
+/* =============== The benefits of working Part CSS  =============== */
+
+
+/* =============== Client Details Part CSS  =============== */
+
+
+.detailspartLeft{
+  padding: 128px 0;
+}
+
+.detailspartLeft:hover {
+  background-color: var(--secoundary_background_color);
+}
+
+.detailsPart__right{
+  padding-left: 50px;
+}
+
+.detailsPart__Left{
+  padding-right: 50px;
+}
+
+
+
+.detailsPart__head{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+
+}
+
+.detailsPart__title{
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+  line-height: 56px;
+  padding: 16px 0;
+  
+}
+
+.detailsPart__summery{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: .7;
+ 
+}
+
+
+/* =============== Client Details Part CSS  =============== */
+
+
+
+/* =============== FAQ Part CSS  =============== */
+
+#faqpart {
+  padding: 128px 0;
+  background-color: #ECECF1;
+}
+
+.faqLeft__title {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--Primery_Font_Color);
+  line-height: 56px;
+  padding-bottom: 16px;
+}
+
+.customFaq__number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2405f2;
+  padding-right: 30px;
+}
+
+.customFaq__question {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+}
+
+.customFaq__answer {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.87;
+  padding-left: 68px;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("https://cdn1.iconfinder.com/data/icons/basic-ui-elements-28/512/1034_Add_new_plus_sign-512.png");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/23/02/48/cross-7086307_1280.png");
+  transform: rotate(-180deg);
+}
+
+/* =============== FAQ Part CSS  =============== */
+
+
+
+/* =============== Footer Part CSS  =============== */
+
+#footerPart {
+  padding: 128px 0px 0px 0px;
+  background-color: var(--primary_background_color);
+}
+
+.customerfootercontact__summery {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+  opacity: 0.8;
+  line-height: 28px;
+  padding: 24px 0px 60px 0;
+}
+
+.customfooterleftContact {
+  padding: 16px 36px;
+  background-color: var(--Yellow_Color);
+}
+
+.customfooterleftContact__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--Primery_Font_Color);
+  margin-bottom: 6px;
+}
+
+.customfooterleftContact__address {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Primery_Font_Color);
+  opacity: 0.8;
+}
+
+.customfooterright__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.customfooterright__summery {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 28px;
+  opacity: 0.8;
+  padding: 14px 0px 28px 0px;
+}
+
+
+.customfooterright__fb {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__fb:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__tw {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__tw:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__in {
+  color: var(--white);
+  margin-right: 12px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__in:hover {
+  color: var(--Yellow_Color);
+}
+
+.customfooterright__ld {
+  color: var(--white);
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.customfooterright__ld:hover {
+  color: var(--Yellow_Color);
+}
+
+/* =============== Terms & condition Part CSS  =============== */
+
+#termspart {
+  padding: 32px 0px;
+  background-color: var(--white);
+}
+
+.termspart__summery {
+  font-size: var(--Paragraph_font_size);
+  font-weight: var(--Paragraph_font_weight);
+  color: var(--Primery_Font_Color);
+}
+
+.customNav__text {
+  font-size: 16px;
+  font-weight: var(--Paragraph_font_weight);
+  color: var(--Primery_Font_Color);
+  margin-left: 12px;
+}
+
+.customNav__text:hover {
+  color: #2405f2;
+}
+
+
+
+/* =============== Terms & condition Part CSS  =============== */

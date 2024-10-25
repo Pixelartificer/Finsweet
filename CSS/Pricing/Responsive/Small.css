@@ -1,0 +1,82 @@
+@media (max-width: 767.98px) { 
+     /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== Pricing Part CSS =============== */
+
+  #PricingPart {
+    padding: 64px 0 0 0;
+
+  }
+
+  .customPricing__title {
+    font-size: 32px;
+    font-weight: 500;
+   
+  }
+
+  .customPricing__summery {
+    font-size: 12px;
+    font-weight: 400;
+ 
+  }
+
+  .custompricingCard {
+    padding: 40px 32px;
+
+  }
+
+  .custompricingCard__price {
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+
+  .custompricingCard__time {
+    font-size: 12px;
+  
+  }
+
+  .custompricingCard__title {
+    font-size: 20px;
+ 
+  }
+
+  .custompricingCard__summery {
+    font-size: 12px;
+     padding-bottom: 78px;
+  }
+
+  .custompricingCard__offer {
+    font-size: 12px;
+ 
+  }
+
+  .custompricingCard__button {
+    margin-top: 60px;
+    padding: 12px 48px;
+    font-size: 12px;
+    font-weight: 500;
+  
+  }
+
+  .--custompricingCard02 {
+    padding-bottom: 58px;
+  }
+  /* =============== Pricing Part CSS =============== */
+
+ }

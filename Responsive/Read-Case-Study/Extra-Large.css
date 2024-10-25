@@ -1,0 +1,94 @@
+@media (max-width: 1399.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+  .customNavButton__title {
+    padding: 12px 32px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Hero Part =============== */
+  .customHero__button {
+    padding: 16px 40px;
+  }
+
+  /* =============== Hero Part =============== */
+
+  /* =============== Features Part =============== */
+
+  .designCard__title {
+    padding: 22px 0 12px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--Primery_Font_Color);
+  }
+
+  /* =============== Features Part =============== */
+
+  /* =============== Client Part =============== */
+
+  .clientsRight__title {
+    line-height: 40px;
+  }
+
+  /* =============== Client Part =============== */
+
+  /* =============== Building stellar Part =============== */
+
+  .buildingrightAction__button {
+    padding: 16px 96px;
+  }
+  
+
+  .customoverlayLeft__item {
+    padding: 80px 80px;
+  }
+
+  .customoverlayLeft__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+   
+  
+  }
+
+  .customoverlayLeft__summery {
+    font-size: 14px;
+    font-weight: 400;
+     line-height: 22px;
+  }
+
+
+
+
+  .buildingRight__action {
+    padding: 12px 0;
+    row-gap: 12px;
+  }
+
+  .buildingrightAction__bottom {
+    padding-top: 24px;
+  }
+
+  .buildingRight {
+    padding: 72px 72px 40px 72px;
+  }
+
+  /* =============== Building stellar Part =============== */
+}

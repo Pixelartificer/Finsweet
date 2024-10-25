@@ -1,0 +1,26 @@
+@media (max-width: 575.98px) { 
+         /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== About us =============== */
+  .customAboutusLeft__title {
+    font-size: 40px;
+    line-height: 48px;
+  
+  }
+  /* =============== About us =============== */
+ }

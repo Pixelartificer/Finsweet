@@ -1,0 +1,86 @@
+@media (max-width: 767.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== Blog =============== */
+
+  #blogPart {
+    padding: 80px 0;
+  }
+
+  .customBlog__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .customBlog__name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .customBlog__date {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .customBlog__summery {
+    font-size: 14px;
+    padding-bottom: 12px;
+    padding-top: 24px;
+  }
+
+  .customBlog__read {
+    font-size: 14px;
+  }
+
+  /* =============== Blog =============== */
+  /* =============== Blog Card =============== */
+
+  #blogCard {
+    padding: 0px 0 80px 0;
+  }
+
+  .blogPart__card {
+    padding-top: 24px;
+  }
+
+  .blogpartCard__date {
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .blogpartCard__title {
+    font-size: 20px;
+
+  }
+
+  .blogpartCard__summery {
+    font-size: 14px;
+   
+  }
+  /* =============== Blog Card =============== */
+
+  /* =============== Footer =============== */
+  #footerPart {
+    padding: 72px 0px 0px 0px;
+  
+  }
+  
+  
+  /* =============== Footer =============== */
+}

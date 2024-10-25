@@ -1,0 +1,56 @@
+@media (max-width: 767.98px) { 
+     /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+
+  /* =============== Privet Policy =============== */
+
+  #policyPart {
+    padding: 40px 0;
+
+  }
+
+  .policyPart__title {
+    font-size: 36px;
+    font-weight: 500;
+
+  }
+
+  .policyPart__summery {
+    font-size: 14px;
+  
+    line-height: 20px;
+    padding-bottom: 32px;
+  }
+
+  .policyPart__title02{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 24px;
+  
+  }
+
+  #footerPart {
+    padding: 64px 0px 0px 0px;
+    background-color: var(--primary_background_color);
+  }
+  
+  /* =============== Privet Policy =============== */
+
+  
+ }

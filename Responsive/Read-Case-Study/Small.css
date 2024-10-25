@@ -1,0 +1,138 @@
+@media (max-width: 767.98px) { 
+     /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== Hero =============== */
+
+  #heroPart {
+    padding: 56px 0;
+ 
+  }
+
+  .customHero__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+  
+  }
+
+  .customHero__summery {
+    padding: 16px 0 24px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  
+  }
+
+  .customHero__button {
+    padding: 12px 40px;
+   
+    font-size: 12px;
+    font-weight: 400;
+
+  }
+
+  .customHero__price {
+    font-size: 12px;
+    font-weight: 400;
+ margin: 12px 0;
+  }
+
+  /* =============== Hero =============== */
+
+  /* =============== Work =============== */
+
+  #workPart {
+    padding: 56px 0;
+
+  }
+
+  .workPart__title {
+    font-size: 32px;
+    font-weight: 500;
+  
+  }
+
+  /* =============== Work =============== */
+
+
+  /* =============== Project =============== */
+
+  #projectPart {
+    padding: 56px 0;
+   
+  }
+
+  /* =============== Project =============== */
+
+  /* =============== Problem =============== */
+
+  #designPartg {
+    padding: 56px 0;
+   
+  }
+
+  .designTop__title {
+
+    padding: 12px 0 32px 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+   
+  }
+  /* =============== Problem =============== */
+
+  /* =============== client=============== */
+
+  #clientsPart {
+    padding: 56px 0;
+ 
+  }
+
+  .clientsRight__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  
+    padding-bottom: 32px;
+  
+  }
+  /* =============== client=============== */
+
+
+  /* =============== FAQ=============== */
+
+  #faqpart {
+    padding: 56px 0;
+  }
+
+  .customFaq__number {
+    font-size: 18px;
+   
+  }
+
+  .customFaq__question {
+    font-size: 18px;
+   
+  }
+
+  .customFaq__answer {
+    font-size: 14px;
+   
+  }
+  /* =============== FAQ=============== */
+ }

@@ -1,0 +1,126 @@
+@media (max-width: 1199.98px) {
+  /* =============== Root =============== */
+
+  :root {
+    --primary_background_color: #1c1e53;
+    --secoundary_background_color: #f4f6fc;
+    --white: #ffffff;
+    --Primery_Font_Color: #282938;
+    --Yellow_Color: #fcd980;
+    --Poppins: "Poppins", sans-serif;
+  }
+
+  body {
+    font-family: var(--Poppins);
+  }
+
+  /* =============== Root =============== */
+
+  /* =============== NavBar =============== */
+
+  .customNavItem {
+    padding-right: 24px;
+  }
+
+  .customNavItem__title {
+    font-size: 14px;
+  }
+
+  .customNavButton__title {
+    font-size: 14px;
+  }
+
+  /* =============== NavBar =============== */
+
+  /* =============== Blog Bar =============== */
+
+  #blogPart {
+    padding: 80px 0;
+  }
+
+  .customBlog__title {
+    font-size: 40px;
+    line-height: 52px;
+   }
+
+   .customBlog__name {
+  
+    font-weight: 500;
+  
+  }
+
+  /* =============== Blog Bar =============== */
+
+
+  /* =============== Our Blog Bar =============== */
+
+  #blogCard {
+    padding: 0px 0 96px 0;
+  }
+
+
+  .blogPart__card {
+    padding-top: 36px ;
+  }
+  /* =============== Our Blog Bar =============== */
+
+
+
+  /* =============== Blog card Bar =============== */
+
+  .blogpartCard__title {
+    font-size: 20px;
+    
+  }
+
+  /* =============== Blog card Bar =============== */
+
+
+
+
+
+
+
+
+
+  /* =============== Footer Part =============== */
+
+  #footerPart {
+    padding: 96px 0px 0px;
+  }
+
+  .customerfootercontact__summery {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 0px 40px 0;
+  }
+
+  .customfooterleftContact {
+    padding: 12px 28px;
+    background-color: var(--Yellow_Color);
+  }
+
+  .customfooterleftContact__title {
+    font-size: 14px;
+    margin-bottom: 4x;
+  }
+
+  .customfooterleftContact__address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .customfooterright__title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .customfooterright__summery {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  
+  }
+
+  /* =============== Footer Part =============== */
+}
